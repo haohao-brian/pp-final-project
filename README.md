@@ -1,26 +1,34 @@
 ## step 1
 
+```
 g++ -O3 -march=native -ffast-math -fopenmp bench_csv.cpp \
   -lfftw3 -lfftw3_threads -lpthread \
   -o bench_csv
+```
 
 ## step 2
+```
 g++ -O3 -march=native -ffast-math -fopenmp -c fft_a1.cpp -o fft_a1.o
-
+```
 ## step 3
+```
 g++ -O3 -march=native -ffast-math -fopenmp bench_csv_a1.cpp fft_a1.o \
   -lfftw3 -lfftw3_threads -lpthread \
   -o bench_csv_a1
-
+```
 ## step 4
+```
 ./run_cmp_fftw_a1.sh ./bench_csv ./bench_csv_a1
-
+```
 ## result 
+```
     •    results_cmp.csv（bench 本身的 sec/gflops/checksum）
     •    perf_logs_cmp/（每次 perf stat 的 raw log）
     •    perf_merged_cmp.csv（parse_perf.py 合併後）
     •    baseline_cmp.csv（join_derive_v2.py 合併後：cycles/IPC/LLC/dTLB 等 per-FFT 指標）
-
+```
 ## show result
+```
 cat baseline_cmp.csv
 可以看到各項數據
+```
