@@ -33,8 +33,9 @@ cat baseline_cmp.csv
 可以看到各項數據
 ```
 ## example result
-upper two row is our implement a1 algorithmn.
-lower two is original fftw3.
+Upper two row is our implement a1 algorithmn.
+
+Lower two is original fftw3.
 
 ```
 impl,n,threads,sec_per_iter,gflops,cycles_per_fft,instr_per_fft,ipc,cache_misses_per_fft,LLC_load_misses_per_fft,dTLB_load_misses_per_fft,cache_miss_rate
