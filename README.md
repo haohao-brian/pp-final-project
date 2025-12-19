@@ -1,18 +1,18 @@
-##step 1
+## step 1
 
 g++ -O3 -march=native -ffast-math -fopenmp bench_csv.cpp \
   -lfftw3 -lfftw3_threads -lpthread \
   -o bench_csv
 
-##step 2
+## step 2
 g++ -O3 -march=native -ffast-math -fopenmp -c fft_a1.cpp -o fft_a1.o
 
-##step 3
+## step 3
 g++ -O3 -march=native -ffast-math -fopenmp bench_csv_a1.cpp fft_a1.o \
   -lfftw3 -lfftw3_threads -lpthread \
   -o bench_csv_a1
 
-##step 4
+## step 4
 ./run_cmp_fftw_a1.sh ./bench_csv ./bench_csv_a1
 
 ## result 
