@@ -1,0 +1,55 @@
+
+-    std::FILE* fp = std::fopen(opt.csv.c_str(), "w");
+-    if (!fp) { perror("fopen"); return 1; }
++    std::FILE* csvf = std::fopen(opt.csv.c_str(), "w");
++    if (!csvf) { perror("fopen"); return 1; }
+
+-    std::fprintf(fp,
++    std::fprintf(csvf,
+         "N,threads,fftw_flag,"
+         "mkl_plan_min_ms,mkl_plan_med_ms,mkl_plan_mean_ms,mkl_plan_std_ms,mkl_plan_p95_ms,"
+         "mkl_exec_min_ms,mkl_exec_med_ms,mkl_exec_mean_ms,mkl_exec_std_ms,mkl_exec_p95_ms,"
+         "fftw_plan_min_ms,fftw_plan_med_ms,fftw_plan_mean_ms,fftw_plan_std_ms,fftw_plan_p95_ms,"
+         "fftw_exec_min_ms,fftw_exec_med_ms,fftw_exec_mean_ms,fftw_exec_std_ms,fftw_exec_p95_ms,"
+         "max_err\n"
+     );
+
+@@
+-            Stats mp = calc_stats(mkl_plan_ms);
+-            Stats me = calc_stats(mkl_exec_ms);
+-            Stats fp = calc_stats(fftw_plan_ms);
+-            Stats fe = calc_stats(fftw_exec_ms);
++            Stats mp = calc_stats(mkl_plan_ms);
++            Stats me = calc_stats(mkl_exec_ms);
++            Stats fplan = calc_stats(fftw_plan_ms);
++            Stats fexec = calc_stats(fftw_exec_ms);
+
+@@
+-            std::printf("  FFTW plan(ms): med=%.4f p95=%.4f | exec(ms): med=%.4f p95=%.4f\n",
+-                        fp.median, fp.p95, fe.median, fe.p95);
++            std::printf("  FFTW plan(ms): med=%.4f p95=%.4f | exec(ms): med=%.4f p95=%.4f\n",
++                        fplan.median, fplan.p95, fexec.median, fexec.p95);
+
+-            std::fprintf(fp,
++            std::fprintf(csvf,
+                 "%d,%d,%s,"
+                 "%.6f,%.6f,%.6f,%.6f,%.6f,"
+                 "%.6f,%.6f,%.6f,%.6f,%.6f,"
+                 "%.6f,%.6f,%.6f,%.6f,%.6f,"
+                 "%.6f,%.6f,%.6f,%.6f,%.6f,"
+                 "%.6e\n",
+                 N, T, opt.fftw_flag.c_str(),
+                 mp.min, mp.median, mp.mean, mp.std, mp.p95,
+                 me.min, me.median, me.mean, me.std, me.p95,
+-                fp.min, fp.median, fp.mean, fp.std, fp.p95,
+-                fe.min, fe.median, fe.mean, fe.std, fe.p95,
++                fplan.min, fplan.median, fplan.mean, fplan.std, fplan.p95,
++                fexec.min, fexec.median, fexec.mean, fexec.std, fexec.p95,
+                 maxerr
+             );
+
+-            std::fflush(fp);
++            std::fflush(csvf);
+@@
+-    std::fclose(fp);
++    std::fclose(csvf);

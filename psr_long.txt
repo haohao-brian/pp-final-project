@@ -1,0 +1,92 @@
+ 539485  10 mkl_vs_fftw_fft
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  19 openmp_worker
+ 539491   2 openmp_worker
+ 539492   0 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  12 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  12 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  12 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  12 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  10 openmp_worker
+ 539490  12 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  11 openmp_worker
+ 539490  13 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  11 openmp_worker
+ 539490  13 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  11 openmp_worker
+ 539490  13 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----
+ 539485  14 mkl_vs_fftw_fft
+ 539488   8 openmp_worker
+ 539489  11 openmp_worker
+ 539490  13 openmp_worker
+ 539491   2 openmp_worker
+ 539492   1 openmp_worker
+ 539493   4 openmp_worker
+ 539494   7 openmp_worker
+----

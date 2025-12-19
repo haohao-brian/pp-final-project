@@ -1,0 +1,16 @@
+94718453015,,cpu_atom/cycles/,11188865418,47.00,,
+189318932589,,cpu_core/cycles/,27620253804,73.00,,
+100341632374,,cpu_atom/instructions/,13059168574,55.00,1.06,insn per cycle
+171724307461,,cpu_core/instructions/,27620253804,73.00,0.91,insn per cycle
+71183408,,cpu_atom/cache-references/,13060872603,55.00,,
+207930304,,cpu_core/cache-references/,27620253804,73.00,,
+22900,,cpu_atom/cache-misses/,13060648526,55.00,0.03,of all cache refs
+231243,,cpu_core/cache-misses/,27620253804,73.00,0.11,of all cache refs
+29243733277,,cpu_atom/dTLB-loads/,13061474542,55.00,,
+51917797300,,cpu_core/dTLB-loads/,27620253804,73.00,,
+12960,,cpu_atom/dTLB-load-misses/,13062643869,55.00,0.00,of all dTLB cache accesses
+33738,,cpu_core/dTLB-load-misses/,27620253804,73.00,0.00,of all dTLB cache accesses
+2304268,,cpu_atom/LLC-loads/,13066929154,55.00,,
+23645820,,cpu_core/LLC-loads/,27620253804,73.00,,
+0,,cpu_atom/LLC-load-misses/,13066585706,55.00,,
+10120,,cpu_core/LLC-load-misses/,27620253804,73.00,0.04,of all LL-cache accesses

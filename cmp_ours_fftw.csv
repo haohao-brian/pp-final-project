@@ -1,0 +1,3 @@
+impl,n,threads,inplace,plan,seed,iters,sec,sec_per_iter,gflops,plan_sec,checksum
+fftw,1048576,8,0,estimate,1,1,0.008149124,8.149124000e-03,12.867346,0.002296848,524410.208363
+ours,1048576,8,0,estimate,1,1,0.049647332,4.964733200e-02,2.112049,0.026556100,4067574.241010

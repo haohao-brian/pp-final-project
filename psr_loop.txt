@@ -1,0 +1,305 @@
+1765708582.153442380
+ 536021   9 mkl_vs_fftw_fft
+----
+1765708582.217209187
+ 536021   0 mkl_vs_fftw_fft
+ 536026   2 openmp_worker
+ 536027   4 openmp_worker
+ 536028   6 openmp_worker
+ 536029   8 openmp_worker
+ 536030  10 openmp_worker
+ 536031  12 openmp_worker
+ 536032  14 openmp_worker
+----
+1765708582.282643565
+----
+1765708582.363264171
+----
+1765708582.433870149
+----
+1765708582.508734999
+ 536048   6 mkl_vs_fftw_fft
+----
+1765708582.575265876
+ 536048   0 mkl_vs_fftw_fft
+ 536053   2 openmp_worker
+ 536054   4 openmp_worker
+ 536055   6 openmp_worker
+ 536056   8 openmp_worker
+ 536057  10 openmp_worker
+ 536058  12 openmp_worker
+ 536059  14 openmp_worker
+----
+1765708582.639359835
+----
+1765708582.720905919
+----
+1765708582.791449710
+----
+1765708582.873464093
+ 536075  10 mkl_vs_fftw_fft
+----
+1765708582.951351023
+ 536075   0 mkl_vs_fftw_fft
+ 536080   2 openmp_worker
+ 536081   4 openmp_worker
+ 536082   6 openmp_worker
+ 536083   8 openmp_worker
+ 536084  10 openmp_worker
+ 536085  12 openmp_worker
+ 536086  14 openmp_worker
+----
+1765708583.014952853
+----
+1765708583.090011248
+----
+1765708583.160298693
+----
+1765708583.235870753
+ 536099   4 mkl_vs_fftw_fft
+----
+1765708583.300294580
+ 536099   0 mkl_vs_fftw_fft
+ 536104   2 openmp_worker
+ 536105   4 openmp_worker
+ 536106   6 openmp_worker
+ 536107   8 openmp_worker
+ 536108  10 openmp_worker
+ 536109  12 openmp_worker
+ 536110  14 openmp_worker
+----
+1765708583.367316902
+----
+1765708583.448044160
+----
+1765708583.513227345
+----
+1765708583.591729138
+ 536127   5 mkl_vs_fftw_fft
+----
+1765708583.657392748
+ 536127   0 mkl_vs_fftw_fft
+ 536132   2 openmp_worker
+ 536133   4 openmp_worker
+ 536134   6 openmp_worker
+ 536135   8 openmp_worker
+ 536136  10 openmp_worker
+ 536137  12 openmp_worker
+ 536138  14 openmp_worker
+----
+1765708583.722539325
+----
+1765708583.803234481
+----
+1765708583.883541397
+----
+1765708583.959494145
+ 536154   6 mkl_vs_fftw_fft
+----
+1765708584.022159282
+ 536154   0 mkl_vs_fftw_fft
+ 536159   2 openmp_worker
+ 536160   4 openmp_worker
+ 536161   6 openmp_worker
+ 536162   8 openmp_worker
+ 536163  10 openmp_worker
+ 536164  12 openmp_worker
+ 536165  14 openmp_worker
+----
+1765708584.090502657
+----
+1765708584.172343073
+----
+1765708584.243949476
+----
+1765708584.319797454
+ 536178  10 mkl_vs_fftw_fft
+----
+1765708584.382993384
+ 536178   0 mkl_vs_fftw_fft
+ 536183   2 openmp_worker
+ 536184   4 openmp_worker
+ 536185   6 openmp_worker
+ 536186   8 openmp_worker
+ 536187  10 openmp_worker
+ 536188  12 openmp_worker
+ 536189  14 openmp_worker
+----
+1765708584.445912050
+----
+1765708584.519238095
+----
+1765708584.587537010
+----
+1765708584.659275422
+ 536206   9 mkl_vs_fftw_fft
+----
+1765708584.729548692
+ 536206   0 mkl_vs_fftw_fft
+ 536211   2 openmp_worker
+ 536212   4 openmp_worker
+ 536213   6 openmp_worker
+ 536214   8 openmp_worker
+ 536215  10 openmp_worker
+ 536216  12 openmp_worker
+ 536217  14 openmp_worker
+----
+1765708584.798348393
+----
+1765708584.877672465
+----
+1765708584.957088689
+----
+1765708585.031477217
+ 536233   2 mkl_vs_fftw_fft
+----
+1765708585.095258505
+ 536233   0 mkl_vs_fftw_fft
+ 536238   2 openmp_worker
+ 536239   4 openmp_worker
+ 536240   6 openmp_worker
+ 536241   8 openmp_worker
+ 536242  10 openmp_worker
+ 536243  12 openmp_worker
+ 536244  14 openmp_worker
+----
+1765708585.160314985
+----
+1765708585.235955697
+----
+1765708585.307520119
+----
+1765708585.389611227
+ 536257   8 mkl_vs_fftw_fft
+----
+1765708585.455098612
+ 536257   0 mkl_vs_fftw_fft
+ 536265   2 openmp_worker
+ 536266   4 openmp_worker
+ 536267   6 openmp_worker
+ 536268   8 openmp_worker
+ 536269  10 openmp_worker
+ 536270  12 openmp_worker
+ 536271  14 openmp_worker
+----
+1765708585.519656029
+----
+1765708585.598548652
+----
+1765708585.676316518
+----
+1765708585.750485879
+ 536284  13 mkl_vs_fftw_fft
+----
+1765708585.814900317
+ 536284   0 mkl_vs_fftw_fft
+ 536289   2 openmp_worker
+ 536290   4 openmp_worker
+ 536291   6 openmp_worker
+ 536292   8 openmp_worker
+ 536293  10 openmp_worker
+ 536294  12 openmp_worker
+ 536295  14 openmp_worker
+----
+1765708585.878022919
+----
+1765708585.950327205
+----
+1765708586.018319551
+----
+1765708586.093447953
+ 536311   4 mkl_vs_fftw_fft
+----
+1765708586.154658119
+ 536311   0 mkl_vs_fftw_fft
+ 536316   2 openmp_worker
+ 536317   4 openmp_worker
+ 536318   6 openmp_worker
+ 536319   8 openmp_worker
+ 536320  10 openmp_worker
+ 536321  12 openmp_worker
+ 536322  14 openmp_worker
+----
+1765708586.217647177
+----
+1765708586.287071419
+----
+1765708586.366551068
+----
+1765708586.440009380
+ 536340   4 mkl_vs_fftw_fft
+----
+1765708586.500334532
+ 536340   0 mkl_vs_fftw_fft
+ 536347   2 openmp_worker
+ 536348   4 openmp_worker
+ 536349   6 openmp_worker
+ 536350   8 openmp_worker
+ 536351  10 openmp_worker
+ 536352  12 openmp_worker
+ 536353  14 openmp_worker
+----
+1765708586.565928529
+----
+1765708586.640874574
+----
+1765708586.712552509
+----
+1765708586.790374319
+ 536366   0 mkl_vs_fftw_fft
+----
+1765708586.856434550
+ 536366   0 mkl_vs_fftw_fft
+ 536371   2 openmp_worker
+ 536372   4 openmp_worker
+ 536373   6 openmp_worker
+ 536374   8 openmp_worker
+ 536375  10 openmp_worker
+ 536376  12 openmp_worker
+ 536377  14 openmp_worker
+----
+1765708586.918662882
+----
+1765708586.990225666
+----
+1765708587.057311856
+----
+1765708587.139645992
+ 536393  16 mkl_vs_fftw_fft
+----
+1765708587.202247683
+ 536393   0 mkl_vs_fftw_fft
+ 536398   2 openmp_worker
+ 536399   4 openmp_worker
+ 536400   6 openmp_worker
+ 536401   8 openmp_worker
+ 536402  10 openmp_worker
+ 536403  12 openmp_worker
+ 536404  14 openmp_worker
+----
+1765708587.267595259
+----
+1765708587.341605168
+----
+1765708587.421359068
+----
+1765708587.497027761
+ 536420   0 mkl_vs_fftw_fft
+----
+1765708587.558253594
+ 536420   0 mkl_vs_fftw_fft
+ 536425   2 openmp_worker
+ 536426   4 openmp_worker
+ 536427   6 openmp_worker
+ 536428   8 openmp_worker
+ 536429  10 openmp_worker
+ 536430  12 openmp_worker
+ 536431  14 openmp_worker
+----
+1765708587.622049821
+----
+1765708587.691040530
+----
+1765708587.772111906
+----
+1765708587.853983557
