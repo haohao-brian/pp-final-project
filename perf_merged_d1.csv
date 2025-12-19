@@ -1,3 +1,0 @@
-impl,n,threads,cpu_core/LLC-load-misses/,cpu_core/LLC-loads/,cpu_core/cache-misses/,cpu_core/cache-references/,cpu_core/cycles/,cpu_core/dTLB-load-misses/,cpu_core/dTLB-loads/,cpu_core/instructions/
-fftw,16777216,8,36352622.0,94836490.0,154169379.0,359400098.0,11268631935.0,84717599.0,2916512560.0,10050562018.0
-fftw,67108864,8,129477441.0,308176711.0,534784219.0,1165288141.0,33247418482.0,174963521.0,6359140599.0,23876210305.0
